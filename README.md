@@ -24,32 +24,14 @@ $ pip3 install pandas numpy matplotlib
 
 ### Run the script 
 
-Before running the script make sure the file [train.gz](https://www.kaggle.com/c/avazu-ctr-prediction/data) is copied to the same folder where [challenge.py](https://github.com/swonderine/adverity_challenge/blob/main/challenge_brunhuber.py) sits. Run the script via `python3`
+Before running the script make sure the file [train.gz](https://www.kaggle.com/c/avazu-ctr-prediction/data) is copied to the same folder where [challenge_brunhuber.py](https://github.com/swonderine/adverity_challenge/blob/main/challenge_brunhuber.py) sits. Run the script via `python3`
 
 ```
 $ cd ../adverity_challenge-main
 $ cp train.gz ../adverity_challenge-main
-$ python3 challenge.py
+$ python3 challenge_brunhuber.py
 ```
 
 ### Output
 
-You should get two PNG images showing the results of the two tasks.
-
-```
-Give an example
-```
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+Two PNG images should be saved, showing the results of the two tasks.
