@@ -19,7 +19,9 @@ pip3 install pandas matplotlib numpy
 Before running the script make sure the file 'train.gz' exists in the same folder. To run the script [challenge.py](https://github.com/swonderine/adverity_challenge/blob/main/challenge_brunhuber.py) change via terminal to the according directory and run
 
 ```
-python3 challenge.py
+$ cd ../adverity_challenge-main
+$ cp train.gz ../adverity_challenge-main
+$ python3 challenge.py
 ```
 
 ### Output
