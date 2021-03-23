@@ -1,4 +1,4 @@
-# Adverity Challenge
+# Outlier Detection
 
 A simply outlier detection in Python
 
