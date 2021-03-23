@@ -8,10 +8,17 @@ These instructions briefly tell you how to get this project running.
 
 ### Prerequisites
 
+#### Packages
+Project is created with Python: 3.8.5 and the following packages:
+
+* pandas: 1.2.3
+* numpy: 1.20.1
+* matplotlib: 3.3.4
+
 Please make sure to have the used packages installed. Otherwise please install the packages depending on your python3 environment.
 
 ```
-$ pip3 install pandas matplotlib numpy
+$ pip3 install pandas numpy matplotlib
 ```
 
 ### Run the script 
