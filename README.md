@@ -40,7 +40,7 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Run the script [challenge.py](https://gist.github.com/PurpleBooth/b24679402957c63ec426)
 
-To run the script change to the directory and run
+To run the script change to the directory where the script sits and run
 
 ```
 python3 challenge.py
