@@ -8,7 +8,9 @@ plt.style.use('ggplot') # define ggplot as plotstyle
 
 # load data
 train = pd.read_csv("train.gz",usecols=['click','hour']) # due to memory reasons load only necessary columns
-train.head(20)
+if 'train' in locals():
+  print('Data train was loaded)
+# train.head(20)
 
 # Wrangle train data and create datetime column
 dateHour = pd.to_datetime(train['hour'].astype(str), format='%y%m%d%H') # convert column 'hour' to date time object dateHour
@@ -36,6 +38,7 @@ ax.legend(loc='best')
 ax.set(xlabel='Date', title='CTR - Time Series') # set labels, etc
 
 fig.savefig("ctr_ts.png")
+print('Figure saved")
 # plt.show()
 
 ## hourly ticks ##
@@ -112,6 +115,8 @@ ax.legend(loc='best')
 # ax.grid()
 
 fig1.savefig("ctr_ts_ma_outlier.png")
+print('Figure saved")
+
 #plt.show() # show plot
 
 
