@@ -8,10 +8,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+The script uses the following python packages and can be installed into your python environment via pip or conda
 
 ```
-Give examples
+conda install pandas
 ```
 
 ### Installing
