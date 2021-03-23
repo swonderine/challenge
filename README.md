@@ -14,9 +14,9 @@ Please make sure to have the used packages installed. Otherwise please install t
 pip3 install pandas matplotlib numpy
 ```
 
-### Run the script [challenge.py](https://gist.github.com/PurpleBooth/b24679402957c63ec426)
+### Run the script 
 
-To run the script change to the directory where the script sits and run
+To run the script [challenge.py](https://github.com/swonderine/adverity_challenge/blob/main/challenge_brunhuber.py) change to according directory and run
 
 ```
 python3 challenge.py
