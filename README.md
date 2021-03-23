@@ -4,7 +4,7 @@ A simply outlier detection in Python
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions briefly tell you how to get this project running.
 
 ### Prerequisites
 
@@ -16,7 +16,7 @@ pip3 install pandas matplotlib numpy
 
 ### Run the script 
 
-To run the script [challenge.py](https://github.com/swonderine/adverity_challenge/blob/main/challenge_brunhuber.py) change to according directory and run
+Before running the script make sure the file 'train.gz' exists in the same folder. To run the script [challenge.py](https://github.com/swonderine/adverity_challenge/blob/main/challenge_brunhuber.py) change via terminal to the according directory and run
 
 ```
 python3 challenge.py
