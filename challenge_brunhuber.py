@@ -9,7 +9,7 @@ plt.style.use('ggplot') # define ggplot as plotstyle
 # load data
 train = pd.read_csv("train.gz",usecols=['click','hour']) # due to memory reasons load only necessary columns
 if 'train' in locals():
-  print('Data train was loaded)
+  print('Data train was loaded")
 # train.head(20)
 
 # Wrangle train data and create datetime column
