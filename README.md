@@ -11,7 +11,7 @@ These instructions briefly tell you how to get this project running.
 Please make sure to have the used packages installed. Otherwise please install the packages depending on your python3 environment.
 
 ```
-pip3 install pandas matplotlib numpy
+$ pip3 install pandas matplotlib numpy
 ```
 
 ### Run the script 
