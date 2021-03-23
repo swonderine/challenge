@@ -24,7 +24,13 @@ $ pip3 install pandas numpy matplotlib
 
 ### Run the script 
 
-Before running the script make sure the file [train.gz](https://www.kaggle.com/c/avazu-ctr-prediction/data) is copied to the same folder where [challenge_brunhuber.py](https://github.com/swonderine/adverity_challenge/blob/main/challenge_brunhuber.py) sits. Run the script via `python3`
+Copy the repository to your local folder
+
+```
+$ git clone
+```
+
+Before running the script make sure the file [train.gz](https://www.kaggle.com/c/avazu-ctr-prediction/data) is copied to the same folder where [challenge.py](https://github.com/swonderine/adverity_challenge/blob/main/challenge_brunhuber.py) sits. Run the script via `python3`
 
 ```
 $ cp /yourPath/train.gz /yourPath/adverity_challenge-main
