@@ -8,18 +8,16 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-The script uses the following python packages. Please install the packages depending on your environment.
-For your conda environment:
+Please install the used packages depending on your environment.
+E.g. for your conda environment:
 
 ```
 conda install pandas matplotlib.pyplot numpy
-
 ```
 If you are using your local environment:
 
 ```
 pip install pandas matplotlib.pyplot numpy
-
 ```
 
 ### Installing
@@ -40,15 +38,17 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the script challenge_brunhuber.py
+## Run the script [challenge.py](https://gist.github.com/PurpleBooth/b24679402957c63ec426)
 
-To run the script change to directory and run
+To run the script change to the directory and run
 
 ```
-python3 challenge_brunhuber.py
+python3 challenge.py
 ```
 
-### Break down into end to end tests
+You should get two PNG images according to the two tasks.
+
+##
 
 Explain what these tests test and why
 
