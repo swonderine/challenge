@@ -46,19 +46,13 @@ To run the script change to the directory where the script sits and run
 python3 challenge.py
 ```
 
-You should get two PNG images according to the two tasks.
+### Output
 
-##
-
-Explain what these tests test and why
+You should get two PNG images showing the results for the two tasks.
 
 ```
 Give an example
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
 
 ```
 Give an example
