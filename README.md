@@ -16,7 +16,7 @@ Project is created with Python 3.8.5.
 * numpy: 1.20.1
 * matplotlib: 3.3.4
 
-Please make sure to have the above listed packages installed. Otherwise please install the packages depending on your python3 environment.
+Please make sure to have the above listed packages installed. Otherwise please install the packages according to your python3 environment,e.g:
 
 ```
 $ pip3 install pandas numpy matplotlib
