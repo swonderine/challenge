@@ -8,10 +8,18 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-The script uses the following python packages and can be installed into your python environment via pip or conda
+The script uses the following python packages. Please install the packages depending on your environment.
+For your conda environment:
 
 ```
-conda install pandas
+conda install pandas matplotlib.pyplot numpy
+
+```
+If you are using your local environment:
+
+```
+pip install pandas matplotlib.pyplot numpy
+
 ```
 
 ### Installing
@@ -32,9 +40,13 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+## Running the script challenge_brunhuber.py
 
-Explain how to run the automated tests for this system
+To run the script change to directory and run
+
+```
+python3 challenge_brunhuber.py
+```
 
 ### Break down into end to end tests
 
