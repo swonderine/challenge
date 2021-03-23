@@ -8,8 +8,9 @@ These instructions briefly tell you how to get this project running.
 
 ### Prerequisites
 
+Project is created with Python 3.8.5.
+
 #### Packages
-Project is created with Python 3.8.5 and the following packages:
 
 * pandas: 1.2.3
 * numpy: 1.20.1
