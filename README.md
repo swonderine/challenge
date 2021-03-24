@@ -33,7 +33,7 @@ $ git clone https://github.com/swonderine/challenge.git
 ```
 ### Run script 
 
-Before running the script make sure the file containing the data, [train.gz](https://www.kaggle.com/c/avazu-ctr-prediction/data) is copied into the same folder where [challenge.py](https://github.com/swonderine/challenge/blob/main/challenge.py) sits. Run the script via `python3`
+Before running the script make sure the file containing the data, [train.gz](https://www.kaggle.com/c/avazu-ctr-prediction/data) is copied into the same folder where [challenge.py](https://github.com/swonderine/challenge/blob/main/challenge.py) sits. Then you can run the script via `python3`
 
 ```
 $ cd challenge
