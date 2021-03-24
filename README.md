@@ -45,4 +45,4 @@ The script saves two PNG images, showing the results of the two tasks.
 ### Output Images
 
 The CTR over time is shown in ctr_ts.png.
-The CTR, simple moving averages (MA_12h, MA_24h) over time and according outliers are shown in ctr_ts_ma_outlier.png. The outliers are calculated in  for different moving averages (MA_12h, MA_24h) and according standard deviations. Additionally, is shown (+).
+The CTR, simple moving averages (MA_12h, MA_24h) over time and according outliers are shown in ctr_ts_ma_outlier.png. The outliers are calculated via different moving averages (MA_12h, MA_24h) and according standard deviations. Additionally, detected outliers using the standard deviation of the full series are shown (+,x).
