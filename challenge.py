@@ -33,7 +33,7 @@ if 'train_grouped_hourly' in locals():
   del train # delete original data train
 
 # PLOT
-fig, ax = plt.subplots(figsize=(20,10)) # create figure & axes
+fig, ax = plt.subplots(figsize=(24,11)) # create figure & axes
 
 ax.plot(train_grouped_hourly.index,train_grouped_hourly['ctr'], label = "CTR", color="black", linewidth=2)  # plot 'ctr'
 ax.legend(loc='best')
@@ -95,7 +95,7 @@ train_grouped_hourly.loc[(train_grouped_hourly['ctr'] > train_grouped_hourly['up
 
 
 # PLOT
-fig1, ax = plt.subplots(figsize=(20,10))
+fig1, ax = plt.subplots(figsize=(24,11))
 
 # plot data
 ax.plot(train_grouped_hourly.index,train_grouped_hourly['ctr'], label = "CTR", color="black", linewidth=2)
@@ -110,7 +110,7 @@ ax.plot(train_grouped_hourly.index,train_grouped_hourly['outlier_12h_full'], lab
 
 
 ax.set(xlabel='Date',
-       title='Time Series of CTR with MA_12h, MA_24H, MA_48h')
+       title='Time Series of CTR with MA_12h, MA_24H, MA_48h and Detected Outliers')
 
 ax.legend(loc='best')
 
