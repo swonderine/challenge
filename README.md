@@ -27,7 +27,7 @@ $ pip3 install pandas numpy matplotlib
 Make sure to have git installed and copy the repository to your desired local folder
 
 ```
-$ cd /yourlocalfolder
+$ cd /path/to/yourlocalfolder
 $ git clone https://github.com/swonderine/challenge.git
 
 ```
@@ -35,8 +35,8 @@ $ git clone https://github.com/swonderine/challenge.git
 Before running the script make sure the file [train.gz](https://www.kaggle.com/c/avazu-ctr-prediction/data) is copied to the same folder where [challenge.py](https://github.com/swonderine/challenge/blob/main/challenge.py) sits. Run the script via `python3`
 
 ```
-$ cp train.gz /yourlocalfolder/challenge
-$ cd /yourlocalfolder/challenge
+$ cd challenge
+$ cp /path/to/train.gz .
 $ python3 challenge.py
 ```
 
