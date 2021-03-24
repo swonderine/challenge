@@ -40,8 +40,9 @@ $ cd challenge
 $ cp /path/to/train.gz .
 $ python3 challenge.py
 ```
+The script saves two PNG images, showing the results of the two tasks.
 
-### Output
+### Output Images
 
-Two PNG images, showing the results of the two tasks, are saved. The timeseries of CTR is shown in ctr_ts.png.
-The timeseries of CTR, simple moving averages (MA_12h, MA_24h) and according outliers are shown in ctr_ts_ma_outlier.png. Shows the outliers for different moving averages (MA_12h, MA_24h) . Additionally, is shown (+)
+The CTR over time is shown in ctr_ts.png.
+The CTR, simple moving averages (MA_12h, MA_24h) over time and according outliers are shown in ctr_ts_ma_outlier.png. The outliers are calculated in  for different moving averages (MA_12h, MA_24h) and according standard deviations. Additionally, is shown (+).
