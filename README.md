@@ -24,7 +24,7 @@ $ pip3 install pandas numpy matplotlib
 
 ### Clone repository
 
-Clone the repository, containing the challenge, to your desired local folder.
+Clone the repository to your desired local folder.
 
 ```
 $ cd /path/to/yourlocalfolder
