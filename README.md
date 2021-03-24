@@ -16,7 +16,7 @@ Project is created with Python 3.8.5.
 * numpy: 1.20.1
 * matplotlib: 3.3.4
 
-Please make sure to have the above listed packages installed. Otherwise, install the packages according to your python3 environment, e.g:
+Please make sure you have the above listed packages installed. Otherwise, install the packages according to your python3 environment, e.g:
 
 ```
 $ pip3 install pandas numpy matplotlib
@@ -24,7 +24,7 @@ $ pip3 install pandas numpy matplotlib
 
 ### Clone repository
 
-Clone the repository to your desired local folder
+Clone the repository, containing the challenge, to your desired local folder.
 
 ```
 $ cd /path/to/yourlocalfolder
