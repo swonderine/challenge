@@ -43,4 +43,5 @@ $ python3 challenge.py
 
 ### Output
 
-Two PNG images, showing the results of the two tasks, are saved. ctr_ts_ma_outlier.png shows the outlier detection for different moving averages (MA_12h, MA_24h) and according standard deviations.
+Two PNG images, showing the results of the two tasks, are saved. The timeseries of CTR is shown in ctr_ts.png.
+The timeseries of CTR, simple moving averages (MA_12h, MA_24h) and according outliers are shown in ctr_ts_ma_outlier.png. Shows the outliers for different moving averages (MA_12h, MA_24h) . Additionally, is shown (+)
