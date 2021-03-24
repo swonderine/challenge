@@ -24,7 +24,7 @@ $ pip3 install pandas numpy matplotlib
 
 ### Run the script 
 
-Make sure to have git installed and copy the repository to your desired local folder
+Clone the repository to your desired local folder
 
 ```
 $ cd /path/to/yourlocalfolder
