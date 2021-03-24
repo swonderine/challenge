@@ -42,4 +42,4 @@ $ python3 challenge.py
 
 ### Output
 
-Two PNG images should be saved, showing the results of the two tasks. 
+Two PNG images, showing the results of the two tasks, are saved. ctr_ts_ma_outlier.png shows the outlier detection for different moving averages (MA_12h, MA_24h) and according standard deviations.
