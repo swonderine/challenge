@@ -9,7 +9,7 @@ plt.style.use('ggplot') # define ggplot as plotstyle
 # load data
 train = pd.read_csv("train.gz",usecols=['click','hour']) # due to memory reasons load only necessary columns
 if 'train' in locals():
-  print('Data train was loaded...')
+  print('Data from train.gz was loaded ...')
 # train.head(20)
 
 # Wrangle train data and create datetime column
@@ -27,7 +27,10 @@ train_grouped_hourly = train.groupby(pd.Grouper(key='dateHour',freq='H') # group
                                          ).rename(columns={'sum':'clicks','count':'impressions'}) # rename sum and count to clicks & impressions
 
 train_grouped_hourly['ctr'] = train_grouped_hourly['clicks']/train_grouped_hourly['impressions'] # calculate CTR in new column 'ctr'
-del train # delete original data train
+if 'train_grouped_hourly' in locals():
+  print('Hourly Data for CTR created ...')
+
+  del train # delete original data train
 
 # PLOT
 fig, ax = plt.subplots(figsize=(20,10)) # create figure & axes
@@ -37,8 +40,8 @@ ax.legend(loc='best')
 
 ax.set(xlabel='Date', title='CTR - Time Series') # set labels, etc
 
-fig.savefig("ctr_ts.png")
-print('Figure saved...')
+fig.savefig('ctr_ts.png')
+print('ctr_ts.png saved ...')
 # plt.show()
 
 ## hourly ticks ##
@@ -114,8 +117,8 @@ ax.legend(loc='best')
 
 # ax.grid()
 
-fig1.savefig("ctr_ts_ma_outlier.png")
-print('Figure saved...')
+fig1.savefig('ctr_ts_ma_outlier.png')
+print('ctr_ts_ma_outlier.png saved ...')
 
 #plt.show() # show plot
 
