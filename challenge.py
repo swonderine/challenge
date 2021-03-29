@@ -37,16 +37,11 @@ fig, ax = plt.subplots(figsize=(24,11)) # create figure & axes
 
 ax.plot(train_grouped_hourly.index,train_grouped_hourly['ctr'], label = "CTR", color="black", linewidth=2)  # plot 'ctr'
 ax.legend(loc='best')
-
 ax.set(xlabel='Date', title='CTR - Time Series') # set labels, etc
 
 fig.savefig('ctr_ts.png')
 print('ctr_ts.png saved ...')
 # plt.show()
-
-## hourly ticks ##
-# https://stackoverflow.com/questions/48790378/how-to-get-ticks-every-hour
-
 
 
 # Outlier Detection
@@ -104,7 +99,6 @@ ax.plot(train_grouped_hourly.index,train_grouped_hourly['MA_24h'], label = "MA_2
 # ax.plot(train_grouped_hourly.index,train_grouped_hourly['outlier_48h'], label = "outlier_12h", color="purple", marker='o',markersize=16)
 ax.plot(train_grouped_hourly.index,train_grouped_hourly['outlier_24h'], label = "outlier_24h", color="darkred", marker='o', linestyle = 'None', markersize=12)
 ax.plot(train_grouped_hourly.index,train_grouped_hourly['outlier_24h_full'], label = "outlier_24h_full", color="black", marker='x', linestyle = 'None', markersize=12)
-
 ax.plot(train_grouped_hourly.index,train_grouped_hourly['outlier_12h'], label = "outlier_12h", color="red", marker='o', linestyle = 'None')
 ax.plot(train_grouped_hourly.index,train_grouped_hourly['outlier_12h_full'], label = "outlier_12h_full", color="black", marker='+', linestyle = 'None', markersize=12)
 
@@ -114,8 +108,7 @@ ax.set(xlabel='Date',
 
 ax.legend(loc='best')
 
-
-# ax.grid()
+# ax.grid() # don't show grid
 
 fig1.savefig('ctr_ts_ma_outlier.png')
 print('ctr_ts_ma_outlier.png saved ...')
