@@ -4,7 +4,7 @@ A simply outlier detection in Python
 
 ## Getting Started
 
-These instructions briefly tell you how to get this project running.
+These instructions briefly tell you how to get the project running.
 
 ### Prerequisites
 
