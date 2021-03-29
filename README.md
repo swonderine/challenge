@@ -40,7 +40,7 @@ $ cd challenge
 $ cp /path/to/train.gz .
 $ python3 challenge.py
 ```
-The script saves two PNG images, showing the results of the two tasks.
+The script creates two PNG-images, showing the results of the two tasks.
 
 ### Output Images
 
